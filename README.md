@@ -1,5 +1,5 @@
-# CSL411-COMPILER-LAB#
-##SYLLABUS##
+# CSL411-COMPILER-LAB
+##SYLLABUS
 1. Implementation of lexical analyzer using the tool LEX.
 2. Implementation of Syntax analyzer using the tool YACC.
 3. Application problems using NFA and DFA.

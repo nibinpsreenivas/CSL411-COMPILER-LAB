@@ -13,12 +13,39 @@ int main()
 	char keyword[50][50] = {"int", "main", "if", "else", "while", "for", "return", "do", "switch", "FILE", "printf", "scanf"};
 	
         fprintf(output,"Line no. \t Token no. \t\t Token \t\t Lexeme\n\n");
-
+       
 	while(!feof(input))
 	{
 		i=0;
 		flag=0;
 		ch=fgetc(input);
+               if (ch == '/')
+               {
+                ch = fgetc(input);
+                if (ch == '/')
+                {
+                   while ((ch = fgetc(input)) != '\n')
+                   {
+                       if (ch == '\n')
+                        break;
+                    }
+                l++;
+                }
+             else if (ch == '*')
+              {
+                while ((ch = fgetc(input)) != '*')
+                {
+                    if (ch == EOF)
+                        break;
+                }
+                ch = fgetc(input);
+                if (ch == '/')
+                {
+                    continue;
+                }
+            }
+        }
+
 
 		if( ch=='+' || ch== '-' || ch=='*' || ch=='/' )
 		{

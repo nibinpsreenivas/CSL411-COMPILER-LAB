@@ -77,12 +77,18 @@ int main()
 				fprintf(output,"%7d\t\t %7d\t\t Identifier\t %7s\n",l,t,str);
 				t++;
 			}
-                        if( ch==';' || ch=='{' || ch=='}' || ch=='(' || ch==')' || ch=='?' || ch=='@' ||ch=='!' || ch=='%')
+                        if( ch=='+' || ch== '-' || ch=='*' || ch=='/' )
+		       {
+			fprintf(output,"%7d\t\t %7d\t\t Operator\t %7c\n",l,t,ch);
+			t++;
+		        }
+                        if( ch==';' || ch=='{' || ch=='}' || ch=='(' || ch==')' || ch=='?' || ch=='@' ||ch=='!' || ch=='%' ||ch=='=')
                        {
 
 			fprintf(output,"%7d\t\t %7d\t\t Special symbol\t %7c\n",l,t,ch);
 			t++;
 		       }
+                      
 
 
 		}
@@ -96,4 +102,5 @@ int main()
 	fclose(input);
 	fclose(output);
 	return 0;
-}
+
+	}

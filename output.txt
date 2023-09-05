@@ -1,0 +1,367 @@
+Line no. 	 Token no. 		 Token 		 Lexeme
+
+      1		       0		 Identifier	 include
+      1		       1		 Identifier	   stdio
+      1		       2		 Identifier	       h
+      2		       3		 Identifier	 include
+      2		       4		 Identifier	   ctype
+      2		       5		 Identifier	       h
+      3		       6		 Identifier	 include
+      3		       7		 Identifier	  string
+      3		       8		 Identifier	       h
+      5		       9		 Keyword	     int
+      5		      10		 Keyword	    main
+      5		      11		 Special symbol	       )
+      6		      12		 Special symbol	       {
+      8		      13		 Identifier	    FILE
+      8		      14		 Operator	       *
+      8		      15		 Identifier	   input
+      8		      16		 Operator	       *
+      8		      17		 Identifier	  output
+      9		      18		 Keyword	     int
+      9		      19		 Identifier	       l
+      9		      20		 Digit		       1
+      9		      21		 Special symbol	       ;
+     10		      22		 Keyword	     int
+     10		      23		 Identifier	       t
+     10		      24		 Digit		       0
+     10		      25		 Special symbol	       ;
+     11		      26		 Keyword	     int
+     11		      27		 Identifier	       j
+     11		      28		 Digit		       0
+     11		      29		 Special symbol	       ;
+     12		      30		 Keyword	     int
+     12		      31		 Identifier	       i
+     12		      32		 Identifier	    flag
+     13		      33		 Identifier	    char
+     13		      34		 Identifier	      ch
+     13		      35		 Identifier	     str
+     13		      36		 Digit		       2
+     13		      37		 Digit		       0
+     13		      38		 Special symbol	       ;
+     14		      39		 Identifier	   input
+     14		      40		 Identifier	   fopen
+     14		      41		 Identifier	   input
+     14		      42		 Identifier	     txt
+     14		      43		 Identifier	       r
+     14		      44		 Special symbol	       )
+     14		      45		 Special symbol	       ;
+     15		      46		 Identifier	  output
+     15		      47		 Identifier	   fopen
+     15		      48		 Identifier	  output
+     15		      49		 Identifier	     txt
+     15		      50		 Identifier	       w
+     15		      51		 Special symbol	       )
+     15		      52		 Special symbol	       ;
+     16		      53		 Identifier	    char
+     16		      54		 Identifier	 keyword
+     16		      55		 Digit		       3
+     16		      56		 Digit		       0
+     16		      57		 Digit		       3
+     16		      58		 Digit		       0
+     16		      59		 Special symbol	       {
+     16		      60		 Keyword	     int
+     16		      61		 Keyword	    main
+     16		      62		 Keyword	      if
+     16		      63		 Keyword	    else
+     16		      64		 Keyword	      do
+     16		      65		 Keyword	   while
+     16		      66		 Special symbol	       }
+     16		      67		 Special symbol	       ;
+     17		      68		 Identifier	 fprintf
+     17		      69		 Identifier	  output
+     17		      70		 Identifier	    Line
+     17		      71		 Identifier	      no
+     17		      72		 Identifier	       t
+     17		      73		 Identifier	   Token
+     17		      74		 Identifier	      no
+     17		      75		 Identifier	       t
+     17		      76		 Identifier	       t
+     17		      77		 Identifier	   Token
+     17		      78		 Identifier	       t
+     17		      79		 Identifier	       t
+     17		      80		 Identifier	  Lexeme
+     17		      81		 Identifier	       n
+     17		      82		 Identifier	       n
+     17		      83		 Special symbol	       )
+     17		      84		 Special symbol	       ;
+     19		      85		 Keyword	   while
+     19		      86		 Special symbol	       !
+     19		      87		 Identifier	    feof
+     19		      88		 Identifier	   input
+     19		      89		 Special symbol	       )
+     20		      90		 Special symbol	       {
+     21		      91		 Identifier	       i
+     21		      92		 Digit		       0
+     21		      93		 Special symbol	       ;
+     22		      94		 Identifier	    flag
+     22		      95		 Digit		       0
+     22		      96		 Special symbol	       ;
+     23		      97		 Identifier	      ch
+     23		      98		 Identifier	   fgetc
+     23		      99		 Identifier	   input
+     23		     100		 Special symbol	       ;
+     25		     101		 Keyword	      if
+     25		     102		 Identifier	      ch
+     25		     103		 Operator	       +
+     25		     104		 Identifier	      ch
+     25		     105		 Operator	       -
+     25		     106		 Identifier	      ch
+     25		     107		 Operator	       *
+     25		     108		 Identifier	      ch
+     25		     109		 Operator	       /
+     25		     110		 Special symbol	       )
+     26		     111		 Special symbol	       {
+     27		     112		 Identifier	 fprintf
+     27		     113		 Identifier	  output
+     27		     114		 Special symbol	       %
+     27		     115		 Digit		       7
+     27		     116		 Identifier	       d
+     27		     117		 Identifier	       t
+     27		     118		 Identifier	       t
+     27		     119		 Special symbol	       %
+     27		     120		 Digit		       7
+     27		     121		 Identifier	       d
+     27		     122		 Identifier	       t
+     27		     123		 Identifier	       t
+     27		     124		 Identifier	 Operator
+     27		     125		 Identifier	       t
+     27		     126		 Special symbol	       %
+     27		     127		 Digit		       7
+     27		     128		 Identifier	       c
+     27		     129		 Identifier	       n
+     27		     130		 Identifier	       l
+     27		     131		 Identifier	       t
+     27		     132		 Identifier	      ch
+     27		     133		 Special symbol	       ;
+     28		     134		 Identifier	       t
+     28		     135		 Operator	       +
+     28		     136		 Special symbol	       ;
+     29		     137		 Special symbol	       }
+     31		     138		 Keyword	    else
+     31		     139		 Keyword	      if
+     31		     140		 Identifier	      ch
+     31		     141		 Special symbol	       ;
+     31		     142		 Identifier	      ch
+     31		     143		 Special symbol	       {
+     31		     144		 Identifier	      ch
+     31		     145		 Special symbol	       }
+     31		     146		 Identifier	      ch
+     31		     147		 Special symbol	       (
+     31		     148		 Identifier	      ch
+     31		     149		 Special symbol	       )
+     31		     150		 Identifier	      ch
+     31		     151		 Special symbol	       ?
+     31		     152		 Identifier	      ch
+     31		     153		 Special symbol	       @
+     31		     154		 Identifier	      ch
+     31		     155		 Special symbol	       !
+     31		     156		 Identifier	      ch
+     31		     157		 Special symbol	       %
+     31		     158		 Special symbol	       )
+     33		     159		 Special symbol	       {
+     35		     160		 Identifier	 fprintf
+     35		     161		 Identifier	  output
+     35		     162		 Special symbol	       %
+     35		     163		 Digit		       7
+     35		     164		 Identifier	       d
+     35		     165		 Identifier	       t
+     35		     166		 Identifier	       t
+     35		     167		 Special symbol	       %
+     35		     168		 Digit		       7
+     35		     169		 Identifier	       d
+     35		     170		 Identifier	       t
+     35		     171		 Identifier	       t
+     35		     172		 Identifier	 Special
+     35		     173		 Identifier	  symbol
+     35		     174		 Identifier	       t
+     35		     175		 Special symbol	       %
+     35		     176		 Digit		       7
+     35		     177		 Identifier	       c
+     35		     178		 Identifier	       n
+     35		     179		 Identifier	       l
+     35		     180		 Identifier	       t
+     35		     181		 Identifier	      ch
+     35		     182		 Special symbol	       ;
+     36		     183		 Identifier	       t
+     36		     184		 Operator	       +
+     36		     185		 Special symbol	       ;
+     37		     186		 Special symbol	       }
+     39		     187		 Keyword	    else
+     39		     188		 Keyword	      if
+     39		     189		 Identifier	 isdigit
+     39		     190		 Identifier	      ch
+     39		     191		 Special symbol	       )
+     40		     192		 Special symbol	       {
+     41		     193		 Identifier	 fprintf
+     41		     194		 Identifier	  output
+     41		     195		 Special symbol	       %
+     41		     196		 Digit		       7
+     41		     197		 Identifier	       d
+     41		     198		 Identifier	       t
+     41		     199		 Identifier	       t
+     41		     200		 Special symbol	       %
+     41		     201		 Digit		       7
+     41		     202		 Identifier	       d
+     41		     203		 Identifier	       t
+     41		     204		 Identifier	       t
+     41		     205		 Identifier	   Digit
+     41		     206		 Identifier	       t
+     41		     207		 Identifier	       t
+     41		     208		 Special symbol	       %
+     41		     209		 Digit		       7
+     41		     210		 Identifier	       c
+     41		     211		 Identifier	       n
+     41		     212		 Identifier	       l
+     41		     213		 Identifier	       t
+     41		     214		 Identifier	      ch
+     41		     215		 Special symbol	       ;
+     42		     216		 Identifier	       t
+     42		     217		 Operator	       +
+     42		     218		 Special symbol	       ;
+     43		     219		 Special symbol	       }
+     45		     220		 Keyword	    else
+     45		     221		 Keyword	      if
+     45		     222		 Identifier	 isalpha
+     45		     223		 Identifier	      ch
+     45		     224		 Special symbol	       )
+     46		     225		 Special symbol	       {
+     47		     226		 Identifier	     str
+     47		     227		 Identifier	       i
+     47		     228		 Identifier	      ch
+     48		     229		 Identifier	       i
+     48		     230		 Operator	       +
+     48		     231		 Special symbol	       ;
+     49		     232		 Identifier	      ch
+     49		     233		 Identifier	   fgetc
+     49		     234		 Identifier	   input
+     49		     235		 Special symbol	       ;
+     51		     236		 Keyword	   while
+     51		     237		 Identifier	 isalnum
+     51		     238		 Identifier	      ch
+     51		     239		 Identifier	      ch
+     51		     240		 Special symbol	       )
+     52		     241		 Special symbol	       {
+     53		     242		 Identifier	     str
+     53		     243		 Identifier	       i
+     53		     244		 Identifier	      ch
+     54		     245		 Identifier	       i
+     54		     246		 Operator	       +
+     54		     247		 Special symbol	       ;
+     55		     248		 Identifier	      ch
+     55		     249		 Identifier	   fgetc
+     55		     250		 Identifier	   input
+     55		     251		 Special symbol	       ;
+     56		     252		 Special symbol	       }
+     58		     253		 Identifier	     str
+     58		     254		 Identifier	       i
+     58		     255		 Digit		       0
+     58		     256		 Special symbol	       ;
+     60		     257		 Identifier	     for
+     60		     258		 Identifier	       j
+     60		     259		 Digit		       0
+     60		     260		 Special symbol	       ;
+     60		     261		 Identifier	       j
+     60		     262		 Digit		       3
+     60		     263		 Digit		       0
+     60		     264		 Special symbol	       ;
+     60		     265		 Identifier	       j
+     60		     266		 Operator	       +
+     60		     267		 Special symbol	       )
+     62		     268		 Special symbol	       {
+     63		     269		 Keyword	      if
+     63		     270		 Identifier	  strcmp
+     63		     271		 Identifier	     str
+     63		     272		 Identifier	 keyword
+     63		     273		 Identifier	       j
+     63		     274		 Special symbol	       )
+     63		     275		 Digit		       0
+     63		     276		 Special symbol	       )
+     64		     277		 Special symbol	       {
+     65		     278		 Identifier	    flag
+     65		     279		 Digit		       1
+     65		     280		 Special symbol	       ;
+     66		     281		 Identifier	   break
+     67		     282		 Special symbol	       }
+     68		     283		 Special symbol	       }
+     70		     284		 Keyword	      if
+     70		     285		 Identifier	    flag
+     70		     286		 Digit		       1
+     70		     287		 Special symbol	       )
+     71		     288		 Special symbol	       {
+     72		     289		 Identifier	 fprintf
+     72		     290		 Identifier	  output
+     72		     291		 Special symbol	       %
+     72		     292		 Digit		       7
+     72		     293		 Identifier	       d
+     72		     294		 Identifier	       t
+     72		     295		 Identifier	       t
+     72		     296		 Special symbol	       %
+     72		     297		 Digit		       7
+     72		     298		 Identifier	       d
+     72		     299		 Identifier	       t
+     72		     300		 Identifier	       t
+     72		     301		 Identifier	 Keyword
+     72		     302		 Identifier	       t
+     72		     303		 Special symbol	       %
+     72		     304		 Digit		       7
+     72		     305		 Identifier	       s
+     72		     306		 Identifier	       n
+     72		     307		 Identifier	       l
+     72		     308		 Identifier	       t
+     72		     309		 Identifier	     str
+     72		     310		 Special symbol	       ;
+     73		     311		 Identifier	       t
+     73		     312		 Operator	       +
+     73		     313		 Special symbol	       ;
+     74		     314		 Special symbol	       }
+     76		     315		 Keyword	    else
+     76		     316		 Special symbol	       {
+     77		     317		 Identifier	 fprintf
+     77		     318		 Identifier	  output
+     77		     319		 Special symbol	       %
+     77		     320		 Digit		       7
+     77		     321		 Identifier	       d
+     77		     322		 Identifier	       t
+     77		     323		 Identifier	       t
+     77		     324		 Special symbol	       %
+     77		     325		 Digit		       7
+     77		     326		 Identifier	       d
+     77		     327		 Identifier	       t
+     77		     328		 Identifier	       t
+     77		     329		 Identifier	 Identifier
+     77		     330		 Identifier	       t
+     77		     331		 Special symbol	       %
+     77		     332		 Digit		       7
+     77		     333		 Identifier	       s
+     77		     334		 Identifier	       n
+     77		     335		 Identifier	       l
+     77		     336		 Identifier	       t
+     77		     337		 Identifier	     str
+     77		     338		 Special symbol	       ;
+     78		     339		 Identifier	       t
+     78		     340		 Operator	       +
+     78		     341		 Special symbol	       ;
+     79		     342		 Special symbol	       }
+     81		     343		 Special symbol	       }
+     83		     344		 Keyword	    else
+     83		     345		 Keyword	      if
+     83		     346		 Identifier	      ch
+     83		     347		 Identifier	       n
+     83		     348		 Special symbol	       )
+     85		     349		 Special symbol	       {
+     86		     350		 Identifier	       l
+     86		     351		 Operator	       +
+     86		     352		 Special symbol	       ;
+     87		     353		 Special symbol	       }
+     88		     354		 Special symbol	       }
+     90		     355		 Identifier	  fclose
+     90		     356		 Identifier	   input
+     90		     357		 Special symbol	       ;
+     91		     358		 Identifier	  fclose
+     91		     359		 Identifier	  output
+     91		     360		 Special symbol	       ;
+     92		     361		 Identifier	  return
+     92		     362		 Digit		       0
+     92		     363		 Special symbol	       ;
+     94		     364		 Special symbol	       }

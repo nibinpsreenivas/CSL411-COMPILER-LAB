@@ -10,7 +10,7 @@ int main()
 	char ch,str[20];
 	input = fopen("input.txt","r");
 	output = fopen("output.txt","w");
-	char keyword[30][30] = {"int","main","if","else","do","while"};
+	char keyword[50][50] = {"int", "main", "if", "else", "while", "for", "return", "do", "switch", "FILE", "printf", "scanf"};
 	
         fprintf(output,"Line no. \t Token no. \t\t Token \t\t Lexeme\n\n");
 
@@ -56,7 +56,7 @@ int main()
 
 			str[i]='\0';
                        
-			for(j=0;j<=30;j++)
+			for(j=0;j<=50;j++)
 
 			{
 				if(strcmp(str,keyword[j])==0)
@@ -96,5 +96,4 @@ int main()
 	fclose(input);
 	fclose(output);
 	return 0;
-
-	}
+}

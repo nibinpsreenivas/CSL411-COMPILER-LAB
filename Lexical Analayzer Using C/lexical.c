@@ -52,9 +52,10 @@ int main()
 				i++;
 				ch=fgetc(input);
 			}
+                            
 
 			str[i]='\0';
-
+                       
 			for(j=0;j<=30;j++)
 
 			{
@@ -76,6 +77,13 @@ int main()
 				fprintf(output,"%7d\t\t %7d\t\t Identifier\t %7s\n",l,t,str);
 				t++;
 			}
+                        if( ch==';' || ch=='{' || ch=='}' || ch=='(' || ch==')' || ch=='?' || ch=='@' ||ch=='!' || ch=='%')
+                       {
+
+			fprintf(output,"%7d\t\t %7d\t\t Special symbol\t %7c\n",l,t,ch);
+			t++;
+		       }
+
 
 		}
 

@@ -3,7 +3,7 @@
 #include<string.h>
  
 int main()
-{
+{ 
     
 	FILE *input, *output;
 	int l=1,t=0,j=0,i,flag;

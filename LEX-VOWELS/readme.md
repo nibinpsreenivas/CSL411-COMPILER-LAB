@@ -2,7 +2,7 @@
 
 This repository contains a Lex program designed to identify and count vowels and consonants in a given input text.
 
-![Vowel and Consonant](images/vol.png)
+![Vowel and Consonant](vol.png)
 
 ## Usage
 

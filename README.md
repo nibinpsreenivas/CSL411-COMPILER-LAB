@@ -8,7 +8,7 @@ SYLLABUS
 6. Simulation of code optimization Techniques.
 7. Implement Intermediate code generation for simple expressions.
 8. Implement the back end of the compiler.
-            
+             
            
     
   

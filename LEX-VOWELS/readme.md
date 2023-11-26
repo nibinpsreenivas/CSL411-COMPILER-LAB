@@ -4,6 +4,6 @@ This repository contains a Lex program designed to identify and count vowels and
 
 ![Vowel and Consonant](vol.png)
 
-## Usage
+
 
 

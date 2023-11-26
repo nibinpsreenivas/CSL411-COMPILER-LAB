@@ -6,7 +6,4 @@ This repository contains a Lex program designed to identify and count vowels and
 
 ## Usage
 
-1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/your-username/lex-vowel-consonant.git

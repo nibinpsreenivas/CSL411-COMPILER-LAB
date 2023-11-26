@@ -1,0 +1,3 @@
+lex lexemail.l
+gcc lex.yy.c -o lexemail -lfl
+./lexemail < input2.txt

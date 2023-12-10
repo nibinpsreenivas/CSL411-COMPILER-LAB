@@ -1,0 +1,19 @@
+GRAMMAR is E->E+E 
+ E->E*E 
+ E->(E) 
+ E->id
+enter input string 
+id+id*id
+stack    input   action
+
+$       id+id*id$       SHIFT
+$id       +id*id$       REDUCE by E->id
+$E        +id*id$       SHIFT
+$E+        id*id$       SHIFT
+$E+id        *id$       REDUCE by E->id
+$E+E         *id$       REDUCE by E->E+E
+$E           *id$       SHIFT
+$E*           id$       SHIFT
+$E*id           $       REDUCE by E->id
+$E*E            $       REDUCE by E->E*E
+$E              $       Accept
